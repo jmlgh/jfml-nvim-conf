@@ -19,6 +19,8 @@ return {
 				"markdown",
 				"markdown_inline",
 			},
+			-- Autoinstall languages that are not installed
+			auto_install = true,
 			indent = { enable = true },
 			highlight = {
 				enable = true,
