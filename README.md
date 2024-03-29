@@ -2,6 +2,7 @@
 ## This must be installed on the system
  * fzf (Fuzzy)
  * eslint_d
- * delve (Go)
+ * gopls
+ * delve (Go debuggin)
  * prettierd
  * clang-format (C, C++...)
