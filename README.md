@@ -6,3 +6,4 @@
  * delve (Go debuggin)
  * prettierd
  * clang-format (C, C++...)
+ * shellcheck
