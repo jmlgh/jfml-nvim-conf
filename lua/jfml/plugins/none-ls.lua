@@ -23,6 +23,8 @@ return {
 				null_ls.builtins.completion.spell,
 				null_ls.builtins.formatting.shfmt,
 				null_ls.builtins.formatting.clang_format,
+				null_ls.builtins.formatting.gofmt,
+				null_ls.builtins.formatting.goimports,
 				require("none-ls.diagnostics.eslint_d"),
 				require("none-ls.formatting.eslint_d"),
 				require("none-ls.code_actions.eslint_d"),
