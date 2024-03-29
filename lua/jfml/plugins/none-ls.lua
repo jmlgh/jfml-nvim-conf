@@ -22,6 +22,7 @@ return {
 			sources = {
 				null_ls.builtins.completion.spell,
 				null_ls.builtins.formatting.shfmt,
+				null_ls.builtins.formatting.clang_format,
 				require("none-ls.diagnostics.eslint_d"),
 				require("none-ls.formatting.eslint_d"),
 				require("none-ls.code_actions.eslint_d"),
@@ -36,9 +37,9 @@ return {
 				formatting.stylua,
 				-- THIS BREAKS FOR SOME REASON: eslint_d seems to be nil
 				-- diagnostics.eslint_d.with({
-				--   condition = function(utils)
-				--     return utils.root_has_file({ ".eslintrc.js", ".eslintrc.cjs" })
-				--   end,
+				-- 	condition = function(utils)
+				-- 		return utils.root_has_file({ ".eslintrc.js", ".eslintrc.cjs" })
+				-- 	end,
 				-- }),
 			},
 			-- configure format on save

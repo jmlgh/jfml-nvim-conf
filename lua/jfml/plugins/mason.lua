@@ -15,6 +15,7 @@ return {
 			ensure_installed = {
 				"tsserver",
 				"gopls",
+				"clangd",
 				"angularls",
 				"lua_ls",
 				"html",
