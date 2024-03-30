@@ -3,7 +3,8 @@ return {
 	event = "VeryLazy",
 	config = function()
 		require("fzf-lua").setup({
-			colorscheme = "gruvbox",
+			-- colorscheme = "gruvbox",
+			colorscheme = "tokyonight",
 			winopts = {
 				fullscreen = true,
 				preview = {
